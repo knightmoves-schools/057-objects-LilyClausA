@@ -1,7 +1,7 @@
 let school = {
-    'name',
-    'average class size', 
-    'mascot',
+    'name': 'Avangeline',
+    'average class size' : 14, 
+    'mascot' : 'fire fly',
 };
 let Yada = "${name} has an average class size of ${average class size} and their mascot is a ${mascot}";
 
