@@ -3,7 +3,7 @@ let school = {
     'average class size' : 14, 
     'mascot' : 'fire fly',
 };
-let Yada = `${name} has an average class size of ${average class size} and their mascot is a ${mascot}`
+let Yada = "${school.name} has an average class size of ${school ['average class size']} and their mascot is a ${school ['mascot']}";
 
 document.getElementById('result').innerHTML = Yada;
 
@@ -16,4 +16,5 @@ document.getElementById('result').innerHTML = Yada;
 // "${name} has an average class size 
 // of ${average class size} and 
 // their mascot is a ${mascot}"
+
 
